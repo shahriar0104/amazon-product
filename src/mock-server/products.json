@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "LG 27GL83A-B 27 Inch Ultragear QHD Monitor",
+      "price": 32000,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91lS5yEDH-L._AC_SL1500_.jpg",
+      "product_url": "https://www.amazon.com/LG-27GL83A-B-Ultragear-Compatible-Monitor/dp/B07YGZL8XF/ref=lp_16225007011_1_1"
+    },
+    {
+      "id": 2,
+      "name": "ASUS Laptop L210 Ultra Thin Laptop",
+      "price": 20000,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/810BY5U9baL._AC_SL1500_.jpg",
+      "product_url": "https://www.amazon.com/ASUS-Processor-NumberPad-Microsoft-L210MA-DB01/dp/B081V6W99V/ref=sr_1_2?dchild=1&keywords=asus+laptop&qid=1624987840&refinements=p_89%3AASUS&rnid=2528832011&s=electronics&sr=1-2"
+    },
+    {
+      "id": 3,
+      "name": "Acer Swift 3 Thin & Light Laptop",
+      "price": 56000,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71W5ZdS%2BsEL._AC_SL1500_.jpg",
+      "product_url": "https://www.amazon.com/Acer-Octa-Core-Graphics-Fingerprint-SF314-42-R9YN/dp/B086KKKT15/ref=sr_1_3?crid=2GFF9CNIQHIHK&dchild=1&keywords=ryzen+7+laptop&qid=1624987932&sprefix=ryzen%2Caps%2C549&sr=8-3"
+    },
+    {
+      "id": 4,
+      "name": "AMD Ryzen 7 3700X 8-Core, 16-Thread Unlocked Desktop Processor",
+      "price": 26000,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/717Di3DGIbL._AC_SL1092_.jpg",
+      "product_url": "https://www.amazon.com/AMD-Ryzen-3700X-16-Thread-Processor/dp/B07SXMZLPK/ref=sr_1_2?crid=27KX3EP967XDE&dchild=1&keywords=ryzen+processors&qid=1624988114&sprefix=ryzen+pro%2Caps%2C502&sr=8-2"
+    },
+    {
+      "id": 5,
+      "name": "PlayStation DualSense Wireless Controller",
+      "price": 5500,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61O9tWR6WDS._SL1475_.jpg",
+      "product_url": "https://www.amazon.com/PlayStation-DualSense-Wireless-Controller-Midnight-5/dp/B094WL86N5/ref=sr_1_1?crid=KUAXRPMW5A8H&dchild=1&keywords=playstation+5&qid=1624988222&s=videogames-intl-ship&sprefix=play%2Cvideogames-intl-ship%2C494&sr=1-1"
+    },
+    {
+      "id": 6,
+      "name": "Intel Core i9-10900F Desktop Processor 10 Cores up to 5.2 GHz",
+      "price": 28000,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61hr7fNaHRL._AC_SL1500_.jpg",
+      "product_url": "https://www.amazon.com/Intel-i9-10900F-Desktop-Processor-Graphics/dp/B086MHTK5C/ref=sr_1_2_sspa?crid=2VQ7KW5F2C7DY&dchild=1&keywords=intel+i9&qid=1624988318&sprefix=intel+%2Caps%2C492&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMjMwSjRGVU9ZMkNBJmVuY3J5cHRlZElkPUEwODc0OTU5MkJNTkpNQllCRUpDVCZlbmNyeXB0ZWRBZElkPUEwNjI3Mzk0MTFUMDlGUjFEU09MViZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+    },
+    {
+      "id": 7,
+      "name": "ASUS ROG Strix B450-F Gaming II AMD AM4",
+      "price": 10500,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91woOqEjE0L._AC_SL1500_.jpg",
+      "product_url": "https://www.amazon.com/ASUS-ROG-B450-F-Gaming-Motherboard/dp/B08KH1M1H4/ref=sr_1_1?crid=23GZKL3W2SPYI&dchild=1&keywords=motherboard&qid=1624988409&sprefix=mother%2Caps%2C593&sr=8-1"
+    },
+    {
+      "id": 8,
+      "name": "LED Wireless Mouse, Rechargeable Slim Silent Mouse",
+      "price": 3200,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/6144nG08-iL._AC_SL1500_.jpg",
+      "product_url": "https://www.amazon.com/%E3%80%90Upgrade%E3%80%91-Wireless-Rechargeable-Portable-Adjustable/dp/B088NDL2G1/ref=sr_1_3?crid=2S0XAXKETMGEY&dchild=1&keywords=mouse+wireless&qid=1625031247&sprefix=mouse%2Caps%2C492&sr=8-3"
+    },
+    {
+      "id": 9,
+      "name": "SteelSeries Apex 7 Mechanical Gaming Keyboard",
+      "price": 13500,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81yOuAUQAiL._AC_SL1500_.jpg",
+      "product_url": "https://www.amazon.com/SteelSeries-Apex-Mechanical-Gaming-Keyboard/dp/B07SWNSXQN/ref=sr_1_2_sspa?crid=1LLHLE93J8S1W&dchild=1&keywords=keyboard&qid=1624988534&sprefix=keybo%2Caps%2C693&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFMNk1SSFBRNVBNWTImZW5jcnlwdGVkSWQ9QTA3ODA3MzQyQ1EzVkdGQThKRDY5JmVuY3J5cHRlZEFkSWQ9QTA4Mjg4NDYxRTFDOVUwTUtFSk45JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+    },
+    {
+      "id": 10,
+      "name": "Xiaomi Redmi Note 10 Pro",
+      "price": 29000,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51UyTHwP6wL._AC_SL1000_.jpg",
+      "product_url": "https://www.amazon.com/Xiaomi-Factory-Unlocked-Compatible-International/dp/B08Y8MDMF4/ref=sr_1_1?dchild=1&keywords=xiaomi&qid=1624988625&sr=8-1"
+    }
+  ]
+}

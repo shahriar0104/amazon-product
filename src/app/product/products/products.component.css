@@ -1,0 +1,19 @@
+.card {
+  display: block !important;
+}
+
+.card-width {
+  width: 20rem;
+}
+
+.img-height {
+  max-height: 20rem;
+}
+
+.img-width {
+  max-width: 20rem;
+}
+
+:host ::ng-deep .highlight {
+  background-color: #F2E366;
+}

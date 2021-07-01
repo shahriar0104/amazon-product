@@ -1,0 +1,54 @@
+<app-header></app-header>
+<div class="container-fluid">
+
+  <ngx-loading-bar [includeSpinner]="false" [color]="'#17d2c2'"></ngx-loading-bar>
+
+  <div class="row mt-3 d-flex justify-content-center">
+    <div class="col-12 col-md-6 col-lg-4">
+
+      <div class="input-group shadow-lg">
+        <input type="text" class="form-control" placeholder="Search by name or price"
+               aria-label="name or organization" aria-describedby="basic-addon2"
+               [(ngModel)]="targetStr" (ngModelChange)="onFilter()">
+        <div class="input-group-append">
+          <select name="sortBy" id="sortBy" (change)="changeSortIndex($event)">
+            <option selected="true" disabled="disabled" value="-1">Sort By</option>
+            <option value="1">Name</option>
+            <option value="2">Price</option>
+          </select>
+        </div>
+        <div class="input-group-append">
+          <button class="input-group-text" id="basic-addon3" (click)="sortBy(selectedSortIndex)">
+              <span>
+                  <i class="fa fa-sort ml-2" *ngIf="defaultActive[selectedSortIndex]"></i>
+                  <i class="fa fa-caret-up ml-2" *ngIf="ascActive[selectedSortIndex]"></i>
+                  <i class="fa fa-caret-down ml-2" *ngIf="descActive[selectedSortIndex]"></i>
+              </span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row m-3 d-flex justify-content-center">
+    <div *ngFor="let product of paginatedData" class="card card-width shadow-lg m-3">
+      <img class="card-img-top img-height align-self-center" src="{{ product?.image }}" alt="Card image cap"
+           (click)="chooseProduct(product.product_url)"
+           style="cursor: pointer">
+      <div class="card-body">
+        <h5 class="card-title" [innerHTML]="product?.name | highlight : targetStr"></h5>
+        <p class="card-text" style="color: #ba4b38">
+          <span>৳ </span>
+          <span [innerHTML]="product?.price | highlight : targetStr"></span>
+        </p>
+<!--        <a class="btn btn-primary" (click)="chooseProduct(product.product_url)">Choose Product</a>-->
+      </div>
+    </div>
+  </div>
+
+  <div class="mx-5">
+    <app-pagination [rowData]="rowData" (newPaginatedData)="changePaginatedData($event)"></app-pagination>
+  </div>
+
+</div>
